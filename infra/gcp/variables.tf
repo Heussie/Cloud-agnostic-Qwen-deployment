@@ -31,7 +31,7 @@ variable "project_name" {
 }
 
 variable "region" {
-  type = string
+  default = "europe-west4"
 }
 
 variable "bootstrap_project" {
